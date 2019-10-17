@@ -1,0 +1,40 @@
+.carousel {
+
+    &__bg{
+        position: absolute;
+        z-index: -10;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        margin-top: 237px;
+    }
+
+    &__title {
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-bottom: 23px;
+    }
+
+    &__subtitle {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 39px;
+        span{
+            font-weight: 500;
+        }
+    }
+    &__img{
+        margin-top: 131px;
+    }
+
+
+}

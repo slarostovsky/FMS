@@ -1,0 +1,33 @@
+.promo {
+    min-height: 790px;
+    &__head {
+        padding: 19px 0;
+        min-height: 85px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__inform {
+        display: flex;
+        max-width: 238px;
+        align-items: flex-start;
+    }
+
+    &__flag {
+        height: 21px;
+        margin-right: 11px;
+    }
+
+    &__country {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &__info {
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+}
