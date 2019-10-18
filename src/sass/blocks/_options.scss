@@ -1,0 +1,30 @@
+.options {
+    padding: 79px 0 220px;
+    background: url(../../images/bg/options_bg.jpg)center (center/cover) no-repeat;
+    min-height: 580px;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        padding-right: 82px;
+        width: 50%;
+    }
+    &__right{
+        padding-left: 82px;
+        width: 50%;
+    }
+    &__text {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        &_l{
+            text-align: right;
+        }
+        &_r{
+            text-align: left;
+        }
+    }
+}

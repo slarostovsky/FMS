@@ -33,8 +33,40 @@
         }
     }
     &__img{
-        margin-top: 131px;
+       margin-top: 131px;
     }
 
 
+}
+
+.prev{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(253, 253, 253, 0);
+    border: none;
+    bottom: 0;
+    left: 48%;
+        &:active {
+            outline: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
+}
+
+.next{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(253, 253, 253, 0);
+    border: none;
+    bottom: 0;
+    right: 48%;
+        &:active {
+            outline: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
 }

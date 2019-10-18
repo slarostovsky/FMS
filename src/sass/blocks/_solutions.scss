@@ -1,0 +1,89 @@
+.solutions {
+    width: 100%;
+    min-height: 889px;
+    background: url(../../images/bg/solutions_bg.jpg)center (center/cover) no-repeat;
+    padding: 79px 0 61px;
+    position: relative;
+
+    &__carousel {
+        max-width: 947px;
+        max-height: 560px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.prev_slt {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(253, 253, 253, 0);
+    border: none;
+    top: 50%;
+    left: -29px;
+    transform: translateY(-50%);
+
+    &:active {
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.next_slt {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(253, 253, 253, 0);
+    border: none;
+    top: 50%;
+    right: -29px;
+    transform: translateY(-50%);
+
+    &:active {
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+/* .slick-dots {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    top: -95px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px 32px;
+
+    button {
+        border: none;
+        background-color: rgba(253, 253, 253, 0);
+
+        &:before {
+            content: "Prengi Production ";
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 400;
+            &:hover{
+                color: $main-color;
+            }
+            &:nth-child(1){
+                content: "Prengi Production ";
+            }
+            &:nth-child(2){
+                content: "Prengi FMC ";
+            }
+        }
+    }
+} */

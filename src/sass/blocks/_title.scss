@@ -1,0 +1,44 @@
+.title {
+    color: #393939;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.99px;
+    text-align: center;
+
+    &_slt {
+        color: #ffffff;
+        margin-bottom: 125px;
+    }
+
+    &_adv {
+        margin-bottom: 44px;
+    }
+
+    &_opt {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 128px;
+    }
+
+    &_left {
+        color: #ffffff;
+        line-height: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: right;
+    }
+
+    &_right {
+        color: #ffffff;
+        line-height: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    &_access{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
