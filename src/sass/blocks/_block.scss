@@ -64,3 +64,18 @@
 
     }
 }
+@media only screen and (max-width: 1024px){
+    .block{
+        &__before{
+            justify-content: space-around;
+        }
+        &__after{
+            justify-content: space-around;
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .block{
+        padding:0 0 81px;
+    }
+}

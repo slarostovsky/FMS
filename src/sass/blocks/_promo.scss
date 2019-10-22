@@ -31,3 +31,20 @@
         line-height: 18px;
     }
 }
+@media only screen and (max-width: 991px){
+    .promo{
+        &__head{
+            justify-content: space-around;
+        }
+        &__inform{
+            margin-bottom: 10px;
+        }
+    }
+}
+@media only screen and (max-width: 576px){
+    .promo{
+        &__head{
+           display: none;
+        }
+    }
+}

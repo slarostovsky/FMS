@@ -1,13 +1,16 @@
 .carousel {
-
+    min-height: 700px;
     &__bg{
         position: absolute;
         z-index: -10;
+        
     }
 
     &__item {
         display: flex;
         justify-content: space-between;
+        position: relative;
+        min-height: 700px;
     }
 
     &__info {
@@ -34,6 +37,8 @@
     }
     &__img{
        margin-top: 131px;
+       max-width: 415px;
+       max-height: 570px;
     }
 
 
@@ -69,4 +74,38 @@
         &:focus {
             outline: none;
         }
+}
+
+@media only screen and (max-width: 768px){
+    .carousel {
+        &__info{
+            margin-top: 190px;
+        }
+        
+    }
+}
+@media only screen and (max-width: 576px){
+    .carousel{
+        &__info{
+            margin-top: 120px;
+        }
+        &__item{
+            img{
+                display: none;
+            }
+        }
+        &__info{
+            padding: 0 10px;
+        }
+        &__title{
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            margin-top: 90px;
+        }
+        &__subtitle{
+            text-align: center;
+            margin-top: 50px;
+        }
+    }
 }

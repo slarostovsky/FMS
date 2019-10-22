@@ -1,10 +1,13 @@
 .footer {
     background-color: #0082a1;
     padding: 49px 0 40px;
+    min-height: 495px;
 
     &__wrap {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+
 
     }
 
@@ -58,4 +61,31 @@
     width: 100%;
     background-color: $main-color;
     margin-bottom: 36px;
+}
+@media only screen and (max-width: 768px){
+    .footer{
+        &__text{
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 576px){
+    .footer{
+        padding: 10px 10px 20px;
+        &__wrap{
+            justify-content: space-around;
+        }
+        &__item{
+            &_l{
+                order: -1;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &__title{
+           &_l{
+               display: none;
+           }
+       }
+    }
 }

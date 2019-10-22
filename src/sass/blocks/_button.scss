@@ -9,7 +9,12 @@
     font-weight: 700;
     text-transform: uppercase;
     border: none;
-
+    &:active{
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
     &:hover {
         background-color: #0084f0;
         border: none;
@@ -25,4 +30,11 @@
         margin: 0 auto;
     }
 
+}
+
+@media only screen and (max-width: 576px){
+    .button{
+        display: block;
+        margin: 0 auto;
+    }
 }

@@ -42,3 +42,25 @@
         margin-bottom: 30px;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .title{
+
+        &_left{
+            font-size: 22px;
+        }
+        &_right{
+            font-size: 22px;
+        }
+    }
+}
+@media only screen and (max-width: 576px){
+    .title{
+        &_left{
+            font-size: 18px;
+        }
+        &_right{
+            font-size: 18px;
+        }
+    }
+}
