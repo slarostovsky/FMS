@@ -28,7 +28,16 @@
         }
     }
 }
-
+@media only screen and (max-width: 1024px){
+    .header{
+        &__logo{
+            margin-left: 10px;
+        }
+        &__nav{
+            margin-right: 10px;
+        }
+    }
+}
 @media only screen and (max-width: 768px){
     .header{
         &__link{
